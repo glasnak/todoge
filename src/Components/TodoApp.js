@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const Title = () => (
   <div>
     <h3>
-    Very todo. Much react.
+      Very todo. Much react.
     </h3>
   </div>
 );
@@ -14,19 +14,19 @@ const TodoForm = ({ addTodo }) => {
 
   return (
     <div>
-      <input ref={(node) => {
-        input = node;
-      }}
-      />
-      <button
-        type="submit"
-        onClick={() => {
+      <form action="#"
+        onSubmit={() => {
           addTodo(input.value);
           input.value = '';
+        }}>
+        <input ref={(node) => {
+          input = node;
         }}
-      >
-      add
-      </button>
+        />
+        <button type="submit" >
+          add
+        </button>
+      </form>
     </div>
   );
 };
@@ -36,6 +36,7 @@ const Todo = ({ todo, remove }) => (
     {todo.text}
   </li>
 );
+
 const TodoList = ({ todos, remove }) => {
   // Map through the todos
   const todoNode = todos.map(todo => (<Todo todo={todo} key={todo.id} remove={remove} />));
