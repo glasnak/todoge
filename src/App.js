@@ -4,6 +4,10 @@ import doggo from './doge.svg';
 import './App.css';
 
 class App extends Component {
+  componentDidMount() {
+    document.title = 'ToĐoge';
+  }
+
   render() {
     return (
       <div className="App">
