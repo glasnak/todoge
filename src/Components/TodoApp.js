@@ -14,16 +14,18 @@ const TodoForm = ({ addTodo }) => {
 
   return (
     <div>
-      <form action="#"
+      <form
+        action="#"
         onSubmit={() => {
           addTodo(input.value);
           input.value = '';
-        }}>
+        }}
+      >
         <input ref={(node) => {
           input = node;
         }}
         />
-        <button type="submit" >
+        <button type="submit">
           add
         </button>
       </form>
@@ -62,6 +64,9 @@ class TodoApp extends Component {
 
   // Add todo handler
   addTodo(val) {
+    if (val === '') {
+      return;
+    }
     // Assemble data
     const todo = { text: val, id: window.id++ };
     // Update data
