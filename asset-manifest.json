@@ -1,7 +1,14 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.c904188a.js",
-  "main.js.map": "static/js/main.c904188a.js.map",
-  "static/media/doge.svg": "static/media/doge.82bac535.svg"
+  "main.css": "/todoge/static/css/main.d59f6585.chunk.css",
+  "main.js": "/todoge/static/js/main.9299d19d.chunk.js",
+  "main.js.map": "/todoge/static/js/main.9299d19d.chunk.js.map",
+  "static/js/1.8c0859d6.chunk.js": "/todoge/static/js/1.8c0859d6.chunk.js",
+  "static/js/1.8c0859d6.chunk.js.map": "/todoge/static/js/1.8c0859d6.chunk.js.map",
+  "runtime~main.js": "/todoge/static/js/runtime~main.dccbffbb.js",
+  "runtime~main.js.map": "/todoge/static/js/runtime~main.dccbffbb.js.map",
+  "static/media/doge.svg": "/todoge/static/media/doge.82bac535.svg",
+  "static/css/main.d59f6585.chunk.css.map": "/todoge/static/css/main.d59f6585.chunk.css.map",
+  "index.html": "/todoge/index.html",
+  "precache-manifest.6a5b0793f28f301a37d5b9625048d21e.js": "/todoge/precache-manifest.6a5b0793f28f301a37d5b9625048d21e.js",
+  "service-worker.js": "/todoge/service-worker.js"
 }
